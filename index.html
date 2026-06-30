@@ -28,10 +28,11 @@
   .topbar .for b{color:var(--gold)}
   .topbar .by{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
   .topbar .by b{color:var(--cream)}
-  .topnav{display:flex;gap:8px}
-  .topnav button{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:none;cursor:pointer;border:1px solid var(--line);border-radius:20px;padding:6px 14px;transition:border-color .2s,color .2s,background .2s}
+  .topnav{display:flex;gap:12px}
+  .topnav button{font-family:'Space Mono',monospace;font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:none;cursor:pointer;border:1px solid var(--line);border-radius:26px;padding:12px 26px;font-weight:700;transition:border-color .2s,color .2s,background .2s}
   .topnav button:hover{color:var(--gold);border-color:var(--gold)}
-  .topnav button.on{color:var(--noche);background:var(--gold);border-color:var(--gold);font-weight:700}
+  .topnav button.on{color:var(--noche);background:var(--gold);border-color:var(--gold)}
+  @media(max-width:560px){.topnav button{font-size:13px;padding:10px 18px}}
 
   /* PAGINADO · una página a la vez */
   .page{display:none}
